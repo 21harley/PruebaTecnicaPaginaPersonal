@@ -1,0 +1,94 @@
+.container__avatar {
+  position: relative;
+  width: 100%;
+  max-width: 280px ;
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pretter__avatar_one {
+    position: absolute;
+  object-fit: cover;
+  background: url(./../../../../../public/pattern.svg);
+  background-repeat: no-repeat;
+  height: 150px;
+    width: 80px;
+    left: -10px;
+    z-index: 10;
+    animation: move_one 2s linear infinite;
+}
+
+@keyframes move_one {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translate(0, 10px);
+  }
+  100% {
+    transform: translate(0, 0px);
+  }
+}
+
+.pretter__avatar_two {
+    position: absolute;
+    object-fit: cover;
+    background: url(./../../../../../public/pattern\ \(1\).svg);
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 60px;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    animation: move_two 2s linear infinite;
+  }
+
+  @keyframes move_two {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translate(0, 10px);
+    }
+    100% {
+      transform: translate(0, 0px);
+    }
+  }
+
+.background__avatar {
+    position: absolute;
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  background: url(./../../../../../public/photo.svg);
+  overflow: hidden;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+/*
+.animate__vector__one{
+  position: absolute;
+  top: 30px;
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  background: url(./../../../../../public/Vector.svg);
+  overflow: hidden;
+  background-repeat: no-repeat;
+  animation: move_one 10s linear infinite;
+}
+
+
+
+@keyframes move_one {
+  0% {
+    transform: scaleZ(1);
+  }
+  100% {
+    transform: scale(1.5);
+  }
+}
+  */
+
+

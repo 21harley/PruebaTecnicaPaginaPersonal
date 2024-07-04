@@ -1,0 +1,29 @@
+.videBottom{
+    background: url(./../../../../../public/vibeBottom.svg);
+    background-repeat: no-repeat;
+}
+
+.videRight{
+    background: url(./../../../../../public/vibeRight.svg);
+    background-repeat: no-repeat;
+}
+
+.videLeft{
+    background: url(./../../../../../public/vibeLeft.svg);
+    background-repeat: no-repeat;
+}
+
+.videBottomDark{
+    background: url(./../../../../../public/vibeBottomDark.svg);
+    background-repeat: no-repeat;
+}
+
+.videRightDark{
+    background: url(./../../../../../public/vibeRightDark.svg);
+    background-repeat: no-repeat;
+}
+
+.videLeftDark{
+    background: url(./../../../../../public/vibeLeftDark.svg);
+    background-repeat: no-repeat;
+}

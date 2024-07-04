@@ -1,0 +1,25 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.title__home{
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.container_text_home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    width: 100%;
+    max-width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+}

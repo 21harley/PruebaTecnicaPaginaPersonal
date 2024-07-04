@@ -1,0 +1,22 @@
+.buttonLink{
+   width: 200px;
+   height: 60px;
+   border-radius: 0.5rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: auto;
+}
+
+.whiteArrow{
+    background: url(./../../../../public/whiteArrow.svg) no-repeat;
+    width: 1rem;
+    height: 1rem;
+    margin-left: 1rem;
+}
+
+.whiteArrowColor{
+    background: url(./../../../../public/colorArrow.svg) no-repeat;
+    width: 1rem;
+    height: 1rem;
+}
