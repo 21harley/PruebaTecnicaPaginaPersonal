@@ -1,0 +1,15 @@
+.figure_card{
+    width: 250px;
+    height: 310px;
+    background: var(--secondary-color);
+    text-align: left;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+.figure_image{
+    width: 100%;
+    min-width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 1rem;
+}

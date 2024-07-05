@@ -1,4 +1,4 @@
-// src/components/Alert.tsx
+
 import React, { useEffect, useState } from 'react';
 import { AlertProps } from '@/app/interface';
 

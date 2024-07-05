@@ -8,7 +8,7 @@ export default function DecoratorSVG({
   
   const decoratorStyle: React.CSSProperties = {
     position: 'absolute',
-    zIndex: 100,
+    zIndex: 1,
   };
   
   let className = "";

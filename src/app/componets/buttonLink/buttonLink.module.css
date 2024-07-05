@@ -1,11 +1,12 @@
 .buttonLink{
-   width: 200px;
-   height: 60px;
+   width: 180px;
+   height: 40px;
    border-radius: 0.5rem;
    display: flex;
    align-items: center;
    justify-content: center;
-   margin: auto;
+   border: none;
+   cursor: pointer;
 }
 
 .whiteArrow{
@@ -19,4 +20,5 @@
     background: url(./../../../../public/colorArrow.svg) no-repeat;
     width: 1rem;
     height: 1rem;
+    margin-left: 1rem;
 }

@@ -12,7 +12,6 @@ export const metadata: Metadata = {
 
 
 export default function Section({
-  height,
   width,
   color,
   backgroundColor,
@@ -24,7 +23,7 @@ export default function Section({
     <section
     id={id}
       className={style.section}
-      style={{ height, width, color, backgroundColor }}
+      style={{  width, color, backgroundColor }}
     >
       {children}
       <DecoratorSVG position="right" dark={dark} />

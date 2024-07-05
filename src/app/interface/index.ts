@@ -1,7 +1,6 @@
 import { ReactNode } from "react";
 
 export interface SectionProps {
-  height: string;
   width: string;
   color: string;
   backgroundColor: string;
@@ -14,8 +13,8 @@ export interface AlertProps{
   text: string;
   color?: string;
   backgroundColor?: string;
-  time?: number; // Time in milliseconds
-  position?: 'top' | 'bottom' | 'left' | 'right' | 'center';
+  time?: number; 
+  position?: string;/*'top' | 'bottom' | 'left' | 'right' | 'center' */
 }
 
 export interface ButtonProps {
@@ -28,4 +27,10 @@ export interface ButtonProps {
 export interface DecoratorSVGProps {
   position:  'bottom' | 'left' | 'right';
   dark: boolean;
+}
+
+export interface CardProps {
+  title: string;
+  date: string;
+  image: string;
 }

@@ -12,7 +12,7 @@ export default function ButtonLink({
     <>
         <button className={style.buttonLink} style={{color, backgroundColor}} onClick={onClick}>
             {text}
-            <div className={type ? style.whiteArrow: style.arrow_color}></div>
+            <div className={type ? style.whiteArrow: style.whiteArrowColor}></div>
         </button>
     </>
   )
